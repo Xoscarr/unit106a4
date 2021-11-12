@@ -1,0 +1,136 @@
+body{
+    min-height: 100vh ;
+}
+
+h1{
+    
+    text-align: center;
+    margin-left: 120px;
+    font-weight: 700;
+
+    color:white; 
+}
+.form-fluid h3{
+    color:white; 
+}
+h3{
+    text-align: center;
+    font-weight: 500;
+    
+
+}
+.btn-info{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+
+    font-size: 20px;
+}
+.btn-dark{
+    margin-top: 30px;
+}
+.fa-star{
+    margin-top: 2px;
+}
+#section-list h3{
+    color:white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#iImportant{
+    font-size: 30px;
+    color: yellowgreen;
+    cursor: pointer;
+
+}
+
+#iImportant.fas{
+    color:orange;
+
+}
+
+.flex-parent{
+    display:flex;
+    flex-direction: row; 
+    min-height: 100vh;
+    padding: 0 !important; 
+
+
+}
+
+#section-list{
+    flex: 3;
+}
+#section-form{
+    flex:2;
+    padding: 30px 15px;
+}
+.task {
+    border: 1px solid black;
+    border-radius: 6px; 
+    display:flex; 
+    margin: 10px 20px;
+    padding: 15px; 
+    background-color:#ffffff40;
+    backdrop-filter: blur(12px);
+    align-items: center;
+
+}
+.task i {
+    flex:1;
+
+}
+.task .inner-task{
+    flex:5;
+}
+
+.task .location{
+    flex:2;
+}
+.task button{ 
+    /* flex:1;  */
+    margin-top: 0;
+}
+#section-form h3{
+    text-align: center;
+    margin-bottom: 15px;
+    color:white;
+}
+.control{
+    margin-bottom: 15px;
+}
+.form-fluid{
+    background-color: rgb(24, 1, 83);
+    color:white;
+}
+#section-list{
+    background-image: url("../pic2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.inner-task{
+    display: grid;
+    grid-template-columns: repeat(2, 8rem) 10rem repeat(2, 8rem);
+    width: 85%;
+}
+
+.inner-task div{
+    display: flex;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.save-btn{
+    display: flex;
+    align-self: center ;
+    justify-content: center;
+}
